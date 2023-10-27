@@ -1,0 +1,31 @@
+rasa init
+    Crea un nuevo proyecto con datos de entrenamiento, acciones
+    y archivos de configuración de ejemplo.
+
+rasa train
+    Entrena un modelo con los datos y las historias de la NLU,
+    guarda el modelo entrenado en ../models
+
+rasa interactive
+    Inicia una sesión de aprendizaje interactiva para crear
+    nuevos datos de entrenamiento chateando con el asistente.
+
+rasa shell
+    Carga el modelo entrenado y le permite hablar con el
+    asistente en la línea de comandos.
+
+rasa run
+    Inicia un servidor con el modelo entrenado.
+
+rasa run actions
+    Inicia un servidor de acciones mediante el SDK de Rasa.
+
+rasa visualize
+    Genera una representación visual de tus historias.
+
+rasa test
+    Prueba un modelo Rasa entrenado en cualquier archivo que
+     comience por .test_
+
+
+

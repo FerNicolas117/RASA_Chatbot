@@ -1,37 +1,53 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - consultar_programas
+  - saludar
+  - despedir
+  - afirmar
+  - negar
+  - ánimo_genial
+  - ánimo_infeliz
+  - bot_preguntas
+  - informacion_carreras
+  - carreras_virtuales
+  - ingreso_arte
+  - ingreso_ingles
+  - proceso_ingreso
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_saludo:
+  - text: "¡Hola! ¿En qué puedo ayudarte?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  utter_animar:
+  - text: "Aquí tienes algo para animarte:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_eso_ayudó:
+  - text: "¿Te ayudó eso?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_feliz:
+  - text: "¡Genial, continúa!"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_despedida:
+    - text: "Adiós, ¡que tengas un buen día!"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_ask_bot_pregunta:
+    - text: "Sí, soy un bot, potenciado por RASA. ¿En qué puedo ayudarte?"
 
-  utter_responder_consulta_programas:
+  utter_informacion_carreras:
     - text: "Puedes consultar los programas educativos de las Licenciaturas que ofrece la UAEH en el siguiente enlace: https://www.uaeh.edu.mx/discover/"
+
+  utter_carreras_virtuales:
+    - text: "La UAEH ofrece dos programas educativos en modalidad virtual, la Lic. en Mercadotecnia y la Lic. En Innovación y Tecnología Educativa. Puedes encontrar información de estos y otros programas educativos en: https://www.uaeh.edu.mx/discover/"
+
+  utter_ingreso_arte:
+    - text: "En las licenciaturas que se imparten en el Instituto de Artes, solo podrán registrarse las personas que presenten la constancia de aprobación del curso propedéutico en el área respectiva. Para más informes dirígete a: Instituto de Artes, Ex Hacienda de San Cayetano S/N, Colonia Centro, Mineral del Monte, Hidalgo, México, C.P. 42130. Teléfono: 7717172000, Extensión: 4441. O a los correos electrónicos: propeartesvisuales@uaeh.edu.mx, propemusica@uaeh.edu.mx, propedanza@uaeh.edu.mx, propeteatro@uaeh.edu.mx"
+
+  utter_ingreso_ingles:
+    - text: "Para registrarte en esta licenciatura debes comprobar un nivel de inglés A2 y haber realizado una entrevista en el área académica correspondiente. Para mayores informes consulta en el apartado de PRESELECCIÓN en el siguiente link: https://www.uaeh.edu.mx/campus/icshu/licenciatura/ensenanza-lengua-inglesa"
+
+  utter_proceso_ingreso:
+    - text: "El ingreso a la UAEH está sustentado en el resultado obtenido en el Examen de Admisión y puedes iniciar tu proceso de selección en https://uaeh.edu.mx/aspirantes/licenciatura/ del 5 de septiembre al 20 de octubre de 2023."
 
 session_config:
   session_expiration_time: 60

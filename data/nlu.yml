@@ -1,97 +1,123 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: saludar
   examples: |
     - hey
-    - hello
+    - hola
     - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - hola allá
+    - buenos días
+    - buenas tardes
+    - hey allá
+    - vamos
+    - hola amigo
+    - buen día
+    - buena tarde
+    - buenas noches
 
-- intent: goodbye
+- intent: despedir
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
+    - adiós
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - nos vemos luego
+    - buena tarde
+    - buena noche
+    - nos vemos
+    - que tengas un lindo día
+    - bonito día
+    - hasta luego
+    - hasta pronto
 
-- intent: affirm
+- intent: afirmar
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - sí
+    - si
+    - en efecto
+    - claro
+    - por supuesto
+    - correcto
+    - eso suena bien
+    - desde luego
 
-- intent: deny
+- intent: negar
   examples: |
     - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - negstivo
+    - nunca
+    - no creo
+    - no me gusta eso
+    - de ninguna forma
+    - de ninguna manera
+    - no realmente
 
-- intent: mood_great
+- intent: ánimo_genial
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - perfecto
+    - genial
+    - increíble
+    - asombroso
+    - sintiéndome como un rey
+    - de maravilla
+    - maravilloso
+    - me siento muy bien
+    - estoy genial
+    - estoy asombroso
+    - voy a salvar el mundo
+    - súper emocionado
+    - extremandamente bien
+    - tan perfecto
+    - tan bueno
+    - tan maravilloso
 
-- intent: mood_unhappy
+- intent: ánimo_infeliz
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - mi día fue horrible
+    - mi día está horrible
+    - mi día está feo
+    - estoy triste
+    - no me siento muy bien
+    - estoy decepcionado
+    - súper triste
+    - derrotado
+    - triste
+    - muy triste
+    - infeliz
+    - no estoy bien
+    - not estoy muy bien
+    - extremandamente triste
+    - tan triste
 
-- intent: bot_challenge
+- intent: bot_preguntas
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - ¿Eres un bot?
+    - ¿Eres un robot?
+    - ¿Eres un humano?
+    - ¿Estoy hablando con un bot?
+    - ¿Estoy hablando con un humano?
 
-- intent: consultar_programas
+- intent: informacion_carreras
   examples: |
+    - Sobre las licenciaturas que oferta la UAEH
     - ¿Dónde puedo consultar los programas educativos de las Licenciaturas que ofrece la UAEH?
     - ¿Cuáles son los programas de Licenciatura disponibles en la UAEH?
     - ¿En qué sitio web puedo ver los programas de Licenciatura de la UAEH?
+    - ¿Qué carreras puedo estudiar en la UAEH?
+
+- intent: carreras_virtuales
+  examples: |
+    - ¿Qué carreras virtuales puedo estudiar en la UAEH?
+
+- intent: ingreso_arte
+  examples: |
+    - Quiero ingresar a un programa educativo del Instituto de Artes ¿qué debo hacer?
+
+- intent: ingreso_ingles
+  examples: |
+    - Quiero ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa ¿qué debo hacer?
+
+- intent: proceso_ingreso
+  examples: |
+    - Antes de iniciar tu proceso de selección
+    - ¿Cómo puedo ingresar a la UAEH?
+    - ¿Cuándo y dónde se publica la Convocatoria para ingresar a la UAEH?

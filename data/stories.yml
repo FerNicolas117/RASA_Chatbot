@@ -2,36 +2,56 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: ruta feliz
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: saludar
+  - action: utter_saludo
+  - intent: ánimo_genial
+  - action: utter_feliz
 
-- story: sad path 1
+- story: ruta triste 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: saludar
+  - action: utter_saludo
+  - intent: ánimo_infeliz
+  - action: utter_animar
+  - action: utter_eso_ayudó
+  - intent: afirmar
+  - action: utter_feliz
 
-- story: sad path 2
+- story: ruta triste 2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: saludar
+  - action: utter_saludo
+  - intent: ánimo_infeliz
+  - action: utter_animar
+  - action: utter_eso_ayudó
+  - intent: negar
+  - action: utter_despedida
 
-- story: historia_consulta_programas
+- story: informacion_carreras
   steps:
-    - intent: consultar_programas
-    - action: utter_responder_consulta_programas
+    - intent: informacion_carreras
+    - action: utter_informacion_carreras
+
+- story: carreras_virtuales
+  steps:
+  - intent: carreras_virtuales
+  - action: utter_carreras_virtuales
+
+- story: ingreso_arte
+  steps:
+  - intent: ingreso_arte
+  - action: utter_ingreso_arte
+
+- story: ingreso_ingles
+  steps:
+  - intent: ingreso_ingles
+  - action: utter_ingreso_ingles
+
+- story: proceso_ingreso
+  steps:
+  - intent: proceso_ingreso
+  - action: utter_proceso_ingreso
 
 

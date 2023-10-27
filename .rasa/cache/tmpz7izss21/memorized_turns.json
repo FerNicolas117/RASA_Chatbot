@@ -1,0 +1,26 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMy+9KLU4Px5I56QW19bGAgDzmh9G": "utter_ingreso_ingles",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMy+9KLU4Px5I56QW1xIwrLSkJLUoHk0PQTNjAYu2P9o=": "action_listen",
+    "eJwtysEJwDAIQNFVHKATZJVQRIIHIbVFTS4hu1dob//Br2sfsB7jidRCbi2wvkCliwv86OLBmu9wtnxEk1GgkRkbOU6xGNTZ9z5fdKUg/w==": "utter_carreras_virtuales",
+    "eJyNjEEKgDAMBL+SB/iCfkUkhJJDoEZJ0l5K/25Bj4LedmB21j4W6KdxQ8ohhybo90ClnRM8UMSDdbrV2aYjOjESZDJjI8cmFpUK+/gI1gg2fPn9am8Xv3NFBQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMy8tvyg3MRmkJjmxqCi1KLG4tjYWALaEIbU=": "utter_informacion_carreras",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMy8tvyg3MRmkJjmxqCi1KLG4loCRpSUlqUXxWHUSaX4sAFjWRyc=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqLY2FgAiGxxa": "utter_saludo",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8WDF+XgMiQUAVr02sg==": "action_listen",
+    "eJydjkEKgCAQRa8yB2hhW69SIVITDOgYOrZIvHtS7YV2/8Hj8adSByhHxNPYVSiwhvIOw9ajhg8cJUFubk4Ym0PcUDQk6/JmY+1UsghG88jhd6RzZc5K4cjkgyHe0dFV63IDgExVOQ==": "utter_animar",
+    "eJydjkEKgDAMBL/SB3jQa7+iUoJGCLSptKkHi383qHfFWxZmJ9vXozF1Tbg5mIQiW1PvwzEEtOYJnrIgK1syJmWINYo1GXyZIR0vliKCyV1w/C15mTKUtsWOKURHvKCn/dsq0Io+/+QbT+Adc18=": "utter_eso_ayudó",
+    "eJytjksKwzAMRK/iA2SRkp2v0hYhEgUEjlxsKdCa3L3qZ59QutPAm6c5t60L7VZoBRyVs8TQPgcILhTDNySuSuKsVSrOsHjUGComm7BsOxZTpQJvOP8s2Zlysb6nk/CSgWWmxI9jq9Ar/vxvPqoZ8G7Tqz8Px7zXJzselDA=": "action_listen",
+    "eJytj8EKAjEMRH+lH+BhxVt/RaUEN4VAN5U2EbT0382u3iuytwzMvMycWz+4di/4CHATyuxd+xyBYUHvviJRFWTzasViHmKT4l2FpDOUPqCoCJawmfPfkEGVi04THpmWHIgjJnr91gosYs9342HNAZ46r/l42oM7GA6RyrqgX99pla7P": "utter_feliz",
+    "eJytkdEKwjAMRX+lH+DDhm/9FR0luBQCbSppI2jZv9s5X6VD9pYL956bkEtdTqbeBR8OboUSW1O3wTFEtOYrAuWC3LyaUZqHuMliTYagM8jSoWgpKO5jTn9DOqtcdRhwZIrJEXsM9Nq3FbRIKz+Mhzk5eOq85v35CG7ncPAkce8PtsLfjOkNTrXIrw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMy+9KLU4Pz6xqCS1tjYWALWsHnA=": "utter_ingreso_arte",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMy+9KLU4Pz6xqCS1loBRpSUlqUXxKDoImBcLAAvbPVg=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhoCg/ObU4Pz4zL70ISNfWxgIAE98fvw==": "utter_proceso_ingreso",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhoCg/ObU4Pz4zL70ISNcSMK20pCS1KB5dE2FTYwFZrUFF": "action_listen",
+    "eJydjkEKgCAQRa/iAVrY1qtUDEMNMaBj6NhGvHtS7YN2/8Hj8afaBlOPRCfgqhzFmfoMEAzkzAues5J0t2RK3WHpqM5k9GXD1D4qRZUS3HL8Hfm4MhdraRQOEXYSRt/acgEqx1S4": "utter_feliz",
+    "eJydjkEKgCAQRa/iAVrU1qtUyFBTDOgYOrZIuntS7Y12/8Hj8ft8NipvAXcDk5BnrfIzDINDrV6wFAW5uCliKA5xQdEqgk0zhLNSSSIYzC3735HKlSG1LXZMzpsVmcB+O7WgpeNTbbwAfLZx/w==": "action_listen",
+    "eJytkEEKAjEMRa/SA7gYcderqITgZCTQSaVNBC1zdzPqviKzy4f/X35ybMsutFuhO+BFOUsM7TOA4EwxfEXiqiTutUrFPSwuNYaKyUYsS4diqlTgbc5/QzpVTjYMtBeeM7BMlPj5Wyv0iC/fjEc1Az5sXPPTYQtu53Ch6/q88wsMo636": "utter_despedida",
+    "eJytkc0KAjEMhF+lD+BhxVtfRaUEMyuBbrr0R9Cy7279uUoX2VsGZr5MyLEuO1PniJujS5ag1tTP4JQmWPMVXlKGNm9JiM0j2mS2JpEvTHHpUErOiO5tDn9DOlVOZRiwV5mCEx3h5bGuFbVIW74ZDyk4uhd+5cfDFtzO4Yrr2g8w0gwWpp+U8xNLY8iO": "action_listen"
+  }
+}
