@@ -1,0 +1,31 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqLY2FgAiGxxa": "respuesta_saludar",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKUWpxQWlqcUlifEwDbhNigUAcsE4vg==": "action_listen",
+    "eJydjksKwzAMRK/iA3SRbH2VtojBVYPBVYJldVHju1eQdB3oToPefK59XELfKr8JqeVVYuj7QYIXx3CIkrWxOGvK1ZksLlsMimIP1HGSUlk3Y22gn+HfpJM9WRbvWv2fWFJGswpiUb7ZND1nyAdUWBYDOVpYMcb9CxFiZF4=": "respuesta_ingreso_licenciatura_enseñanza_lengua_inglesa",
+    "eJytjkEOwjAMBL+SB3Ao13wFkLUKpoqUulUccyDq37EEnIuq3rzyeD2Xvp5CXyo/CanlWWLon4EEE8fwDSVrY3HWlKszWTy2GBTF7qjrRktlXYy1gX4He5s2fLKM/mv2fWJJGc0qiEX5asPwOENeoMIyGsjRwor/1Xd0H+J3ewNMT6Kw": "action_listen",
+    "eJy9kDEOwjAMRa+SAzCUNVcBZFmJqSwFt4pjBqLeHUuFOagDm7/8/f30L307hb5WegKmxovE0PcBBB8Uw0cU1kbiXlOq7mFx2WJQLJaxboOUSroaaUP4HhxNGvCwzP5r8X0iSYzNKgKJ0tWm6X5GeSEUktkQ3FpI8Xf0A9l/4BsUkh2fMnuvtzcv3729": "respuesta_despedir",
+    "eJy9kU0OAjEIha/SA7gYt72KGkJanJBUZlKKCydzd0n8WVqdhTteeHy8wGFZd2GZK10BU+NJYlgeBQheKIanKKyNxL2mVN3D4rLFoFgsY107lEo6G2lDeA1sJXXysIy+a/J+IkmMzSoCidLRhuG8R7khFJLRENxaSPH76BvYf8jXOUj2+JT5hw+9Jz6wTnffFtrp": "action_listen",
+    "eJydjs0JgDAMhVfpAE7QVURC0CCBmkqSeind3YJ6Lnh7H7y/ubYp1FPpAlyds8RQHwGCB8XwQmJzku4tRto9LB09BsNUNtQ2aFGys5A5whf42zT4w7L3rQws5uzFM2wEqE7W2nIDH3Bbag==": "respuesta_ingreso_instituto_de_artes",
+    "eJydjl0KgDAMg6+yA3iCXUWkFC1S0E7azpfh3R2or/69JZB8SVu2JpRFaQXsnZPEUA4BgjPFcJqJzUlqNhtpzbBU6zEYTnlA3R4oSrZkMke4Cn9JD39YxrqVgMWcPXuCgQDVyd5fvGF82ut2xaiH1A==": "action_listen",
+    "eJytkFEKw0AIRK+yB+gJ9ioliGQlCKkb1O3PkrtXaPLbLSF/DoxvRp99f6S+Kb0BZ+cqOfXvAIIvyukQK5uThLcZaXhYQnpOhmsrqPuAomRbI3OEc+EqadCHZYmsCizm7M0rFAJUJ/u/4g/GjXmDQ0rUocLxj+kDNcui4Q==": "respuesta_despedir",
+    "eJytkFEKw0AIRK+yB+gJ9iqliHSlCKkb1O3PkrtXaNLPbBr654DzZvTal0vqs9IL8O5cJaf+GUDwSTmtYmJzkthtRho7LCE9J8OpFdRlQFGyuZE5wmY4Sxr0YXlEVgUWc/bmFQoBqpMdr7jD+GPe4JASdajwD5/9OnZYtzfrOsAN": "action_listen",
+    "eJydjk0KAyEMha/iAXoCrzKUEDQUwUkkMd2Id2+g7Xpgdu+D93es/UhrKL0By2zCOa2vAMaTcvpBbzaJw+tGGp7GgTMnw+4VdV+0KNlwsonwD9xtuvhThM177AyVQiZQCRq/Yl/2fn4AecFbvA==": "respuesta_consulta_proceso_de_ingreso",
+    "eJydjkEKwzAMBL/iB+QF/koIQjgiGFzJSHYuJn+PoMm1aXvTwmpm53FMYVSlHTC1LBzDeB/A+KIYrlCyNWLvdiP1TmaPLQbD0lfU44GiZLWTNYT74V/Sw54kbL24p6okMoGVIPPmfvl+4yfIb8blBE9DiMo=": "action_listen",
+    "eJytkEEKQjEMRK/SA3iCXkUkhDZIoCYlad2Uf3cD6taKuMvAZOYl53Wc0upGd8AyWCWn9RxA8EY5vURjHyThnU4WHpaQIyfHNivasUkx8j7JB8J74dekDU9R8dmip5sWcoVKwHKNfv2e8VPIPxs3t9QAosrxkssDA6Cj1w==": "respuesta_despedir",
+    "eJytkE0KQzEIhK+SA/QEuUopQRIpQqpBk27Cu3uF/ixfXkt3DjjfjJ7ndgqzKd4T5E7CMcznkBhuGMNLVLKO7LvDUH2H2GWPwaCOArotKIrWBlqH9Db8Slr0ycI2quc0lYwmqWAivnq+HO+4B/ln4uKW4oWw0BfP/Th2WJcHAibBAw==": "action_listen",
+    "eJydjlsKgCAQRbfiAlqBW4mQyQYSbJR59CPuPaH6Dvq7B+5rbn1yrTKeAaKmQt61WwSCA717ICdRpOE1QR6eRAPVO4FsG3D/aGGUaigK4Q38bfr4EwuJ5bETd9C1aO/LBZ/zVyg=": "respuesta_consulta_chatbot",
+    "eJydjlEKgCAQRK/iATqBV4mQzRYSbBV37Ue8e0L11YfS3wzMvJm51EmVmPA0YMUF0qrcwhAcqNVjvGNBatnMmFrGUbOiFYPPG6TaoSTkmJEFzFv4S+r8sYE4+7Zjd5A1yPixT3OAvVxicHsO": "action_listen",
+    "eJylj00KxCAMha/iAeYEXmUYJNVABRvFxNlI795A21UXlnaXB+/ny7evH9NLxb8DLzGTNX0/HMGC1hwiRRYk9TbGqp5IKsUahtQC1HXQUpFLQxZwZ+Bp04DHZ+KWdMfPIFOW+2CX5OvuAWrQaQxRP/5tR22WGw==": "respuesta_despedir",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKUWpxQWlqcUlifEwDeSaRMA9yfl5xaU5QHuSMxJLkvJLiHcYhk6KzSbg1BSg1akpmSSEHVwHHrNiATHns0c=": "action_listen",
+    "eJydjk0KgCAQha/iATqBV4mQwSYQdJQZp41494xqLbR7D773s7a+mFYYTwe+hkzWtEc4goTWvCYGqUiDVUEeTKBhqzUCUXfgPmlhlKIoFdwX+Ns0+eMzicaxE+jInMDfsAdmZJDetwsx51yK": "respuesta_consulta_informacion_carreras",
+    "eJydjkEKgCAQRa/iATqBV4mQwSYQdIwZbSPePaPaZrWbD2/e/2Opgyor42bAJhdJq3IehiCgVlfwThJSY7MgN8ZRi0krAZ9n4NqxMMqaURKY++GvqbPHRpLsW4+jJXIAe8AWmJFB3q981nxtnXaNn4s0": "action_listen",
+    "eJytkNEJwzAMRFfxAJ3Aq4RihK2AwJGDZOfHePeqtP2tQ8ifDk53T1r6eLi+Cx4BYqXC3vXPEBg29O4rMmlFNm9TFPMQm6zeKeSWQMYkRVD3hloh/BauJk14YmFt2XqI1yIbxLc5gggK6HnK/zH3tk4uSgaFiewxzxftYqZB": "respuesta_despedir",
+    "eJytkNEJwzAMRFfxAJnAq5RghK2CwJGDZPfHZPeqJO1nnJb+6eDu6aRb3ybXV8FHgFipsHd9HwLDgt4dIpNWZPM2RTEPscnqnUJuCWQbUAR1bagVwjvwK2nQJxbWlm0P8b3IAvFljiCCAnq95Tnmv1sHFyUrhYm+ePEnccKan6Nvw20=": "action_listen",
+    "eJydjssJwzAQRFtRAalArYQgBmUDC/LK7McXod6jkORs8G0G3nzuY97S2JWOgurcJafxFUWwUU4/09icZLFhpIthWdZzMrR4QudJi5LtQeYo/8DVppM/tYtFWzssr64b6geuUCWFlYPVA41szscb5hRgyA==": "respuesta_consulta_informacion_carreras_virtuales",
+    "eJydjksKwzAMRK/iA/QEvkopZnBVEDhy0Ccbk7vXpe06ITsNvHma+9hvaaxKW0F17pLT+B5FsFBOv9DYnGSyYaSTYZnRczK0eEL3A4uSrUHmKP/CVdPBntrFos0/LK+uC+oHrlAlhZWN1QON7Pzes8LrSx5v07CX7g==": "action_listen",
+    "eJy1kNEJwzAMRFfxAJ3Aq5RghK2AwJGDZOXHZPeqtP12CPRPB6fTOz3H+QhjFzwS5E6NYxifITFsGMNXVNKO7F5TFPcQu+wxKFQrIOckRVB3Q+2Qfgt3kyY8ubFa9TvEa5MN8tucQQQFNB0k3aCiXue9Gvgvkknf4qBYyN+2vAC7RbL7": "respuesta_despedir",
+    "eJy1kV0KAzEIhK+SA/QEuUopQRILQtYsGvcl7N1r6c9jsy30zYGZ8RPPYz+FsQpuCXKnxjGMx5AYFozhKSppR3avKYp7iF32GBSqFZB90iKoq6F2SK/Ar00TntxYrfoe4muTBfLdnEEEBTRtJN2goh7nPVr4L5LJvcVBsdAXD3gnPnRdbjjG0Cc=": "action_listen"
+  }
+}

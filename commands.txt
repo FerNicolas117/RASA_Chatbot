@@ -27,5 +27,6 @@ rasa test
     Prueba un modelo Rasa entrenado en cualquier archivo que
      comience por .test_
 
+rasa run -m models --enable-api --cors "*"
 
 

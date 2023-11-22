@@ -1,0 +1,10 @@
+[
+  {
+    "text": "buena tarde",
+    "intent": "despedir",
+    "intent_prediction": {
+      "name": "saludar",
+      "confidence": 0.5273278951644897
+    }
+  }
+]

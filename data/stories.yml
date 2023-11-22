@@ -1,56 +1,81 @@
 version: "3.1"
 
 stories:
-- story: ruta feliz
+- story: saludo_y_consulta_chatbot
   steps:
-  - intent: saludar
-  - action: utter_saludo
-  - intent: ánimo_genial
-  - action: utter_feliz
+    - intent: saludar
+    - action: utter_saludar
+    - intent: consulta_chatbot
+    - action: utter_consulta_chatbot
+    - intent: despedir
+    - action: utter_despedir
 
-- story: ruta triste 1
+- story: saludo_y_consulta_de_informacion_de_carreras
   steps:
-  - intent: saludar
-  - action: utter_saludo
-  - intent: ánimo_infeliz
-  - action: utter_animar
-  - action: utter_eso_ayudó
-  - intent: afirmar
-  - action: utter_feliz
+    - intent: saludar
+    - action: utter_saludar
+    - intent: consulta_informacion_carreras
+    - action: utter_consulta_informacion_carreras
+    - intent: despedir
+    - action: utter_despedir
 
-- story: ruta triste 2
+- story: consulta informacion carreras
   steps:
-  - intent: saludar
-  - action: utter_saludo
-  - intent: ánimo_infeliz
-  - action: utter_animar
-  - action: utter_eso_ayudó
-  - intent: negar
-  - action: utter_despedida
+    - intent: consulta_informacion_carreras
+    - action: utter_consulta_informacion_carreras
 
-- story: informacion_carreras
+- story: saludo_y_consulta_de_informacion_de_carreras_virtuales
   steps:
-    - intent: informacion_carreras
-    - action: utter_informacion_carreras
+    - intent: saludar
+    - action: utter_saludar
+    - intent: consulta_informacion_carreras_virtuales
+    - action: utter_consulta_informacion_carreras_virtuales
+    - intent: despedir
+    - action: utter_despedir
 
-- story: carreras_virtuales
+- story: consulta informacion carreras virtuales
   steps:
-  - intent: carreras_virtuales
-  - action: utter_carreras_virtuales
+    - intent: consulta_informacion_carreras_virtuales
+    - action: utter_consulta_informacion_carreras_virtuales
 
-- story: ingreso_arte
+- story: saludo_y_consulta_de_ingreso_al_instituto_de_artes
   steps:
-  - intent: ingreso_arte
-  - action: utter_ingreso_arte
+    - intent: saludar
+    - action: utter_saludar
+    - intent: ingreso_instituto_de_artes
+    - action: utter_ingreso_instituto_de_artes
+    - intent: despedir
+    - action: utter_despedir
 
-- story: ingreso_ingles
+- story: ingreso instituto de artes
   steps:
-  - intent: ingreso_ingles
-  - action: utter_ingreso_ingles
+    - intent: ingreso_instituto_de_artes
+    - action: utter_ingreso_instituto_de_artes
 
-- story: proceso_ingreso
+- story: saludo_y_consulta_de_ingreso_a_la_licenciatura_enseñanza_lengua_inglesa
   steps:
-  - intent: proceso_ingreso
-  - action: utter_proceso_ingreso
+    - intent: saludar
+    - action: utter_saludar
+    - intent: ingreso_licenciatura_enseñanza_lengua_inglesa
+    - action: utter_ingreso_licenciatura_enseñanza_lengua_inglesa
+    - intent: despedir
+    - action: utter_despedir
 
+- story: ingreso licenciatura enseñanza lengua inglesa
+  steps:
+    - intent: ingreso_licenciatura_enseñanza_lengua_inglesa
+    - action: utter_ingreso_licenciatura_enseñanza_lengua_inglesa
 
+- story: saludo_y_consulta_proceso_de_ingreso
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+    - intent: consulta_proceso_de_ingreso
+    - action: utter_consulta_proceso_de_ingreso
+    - intent: despedir
+    - action: utter_despedir
+
+- story: consulta proceso de ingreso
+  steps:
+    - intent: consulta_proceso_de_ingreso
+    - action: utter_consulta_proceso_de_ingreso

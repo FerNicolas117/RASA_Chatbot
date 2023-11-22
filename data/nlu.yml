@@ -21,8 +21,7 @@ nlu:
     - adiós
     - bye
     - nos vemos luego
-    - buena tarde
-    - buena noche
+    - ayos
     - nos vemos
     - que tengas un lindo día
     - bonito día
@@ -84,40 +83,144 @@ nlu:
     - muy triste
     - infeliz
     - no estoy bien
-    - not estoy muy bien
+    - no estoy muy bien
     - extremandamente triste
     - tan triste
 
-- intent: bot_preguntas
+- intent: consulta_chatbot
   examples: |
     - ¿Eres un bot?
     - ¿Eres un robot?
-    - ¿Eres un humano?
     - ¿Estoy hablando con un bot?
-    - ¿Estoy hablando con un humano?
+    - ¿Eres una inteligencia artificial?
+    - ¿Estoy interactuando con una inteligencia artificial?
+    - ¿Eres un asistente virtual?
+    - ¿Estoy hablando con una inteligencia artificial?
+    - ¿Eres un asistente de inteligencia artificial?
+    - ¿Estoy interactuando con un bot?
+    - ¿Eres un chatbot?
+    - ¿Estoy hablando con un chatbot?
+    - ¿Eres un programa de computadora?
+    - ¿Estoy interactuando con un programa de computadora?
 
-- intent: informacion_carreras
+- intent: consulta_informacion_carreras
   examples: |
     - Sobre las licenciaturas que oferta la UAEH
-    - ¿Dónde puedo consultar los programas educativos de las Licenciaturas que ofrece la UAEH?
+    - ¿Dónde puedo consultar los programas educativos de las Licenciaturas que ofrece la Universidad?
     - ¿Cuáles son los programas de Licenciatura disponibles en la UAEH?
-    - ¿En qué sitio web puedo ver los programas de Licenciatura de la UAEH?
+    - ¿En qué sitio web puedo ver los programas de Licenciatura de la Universidad?
     - ¿Qué carreras puedo estudiar en la UAEH?
+    - ¿Qué carreras presenciales puedo estudiar en la UAEH?
+    - ¿Hay carreras presenciales?
+    - ¿Qué carreras normales puedo estudiar en la UAEH o en la universidad?
+    - ¿Qué opciones de Licenciatura tiene la Universidad para los estudiantes?
+    - ¿Dónde puedo encontrar información sobre las Licenciaturas de la UAEH?
+    - ¿Cuáles son las carreras de Licenciatura que la Universidad tiene para ofrecer?
+    - ¿Puedes mostrarme las Licenciaturas disponibles en la UAEH?
+    - ¿En qué Licenciaturas puedo inscribirme en la Universidad?
+    - ¿Qué programas de estudio de Licenciatura ofrece la UAEH?
+    - ¿Dónde puedo encontrar los programas de estudio de las Licenciaturas de la Universidad?
+    - ¿Cuáles son las diferentes Licenciaturas que puedo estudiar en la UAEH?
+    - ¿Puedo obtener una lista de las Licenciaturas que ofrece la Universidad?
+    - ¿Dónde puedo ver una lista de las carreras de Licenciatura disponibles en la UAEH?
 
-- intent: carreras_virtuales
+- intent: consulta_informacion_carreras_virtuales
   examples: |
     - ¿Qué carreras virtuales puedo estudiar en la UAEH?
+    - ¿Qué carreras virtuales puedo estudiar en la universdad?
+    - ¿Cuáles son las opciones de estudio en línea en la UAEH?
+    - ¿Cuáles son las opciones de estudio en línea en la universidad?
+    - ¿Qué programas de estudio virtuales ofrece la UAEH?
+    - ¿Qué programas de estudio virtuales ofrece la universidad?
+    - ¿Puedo estudiar en línea en la UAEH? ¿Qué carreras ofrecen?
+    - ¿Puedo estudiar en línea en la universidad? ¿Qué carreras ofrecen?
+    - ¿Existen opciones de estudio a distancia en la UAEH?
+    - ¿Existen opciones de estudio a distancia en la universidad?
+    - ¿Qué carreras puedo estudiar en línea en la UAEH?
+    - ¿Qué carreras puedo estudiar en línea en la universidad?
+    - ¿Ofrece la UAEH programas de licenciatura en línea?
+    - ¿Ofrece la universidad programas de licenciatura en línea?
+    - ¿Puedes mostrarme las carreras en línea disponibles en la UAEH?
+    - ¿Puedes mostrarme las carreras en línea disponibles en la universidad?
+    - ¿En qué carreras virtuales puedo inscribirme en la UAEH?
+    - ¿En qué carreras virtuales puedo inscribirme en la universidad?
+    - ¿Dónde puedo encontrar información sobre las carreras virtuales de la UAEH?
+    - ¿Dónde puedo encontrar información sobre las carreras virtuales de la universidad?
+    - ¿Cuáles son las diferentes carreras virtuales que puedo estudiar en la UAEH?
+    - ¿Cuáles son las diferentes carreras virtuales que puedo estudiar en la universidad?
+    - ¿Puedo obtener una lista de las carreras virtuales que ofrece la UAEH?
+    - ¿Puedo obtener una lista de las carreras virtuales que ofrece la universidad?
+    - ¿Dónde puedo ver una lista de las carreras virtuales disponibles en la UAEH?
+    - ¿Dónde puedo ver una lista de las carreras virtuales disponibles en la universidad?
 
-- intent: ingreso_arte
+- intent: ingreso_instituto_de_artes
   examples: |
     - Quiero ingresar a un programa educativo del Instituto de Artes ¿qué debo hacer?
+    - ¿Cómo puedo inscribirme en un programa del Instituto de Artes?
+    - ¿Qué necesito para ingresar al Instituto de Artes?
+    - ¿Cuál es el proceso de admisión para los programas del Instituto de Artes?
+    - ¿Puedes ayudarme a entender cómo ingresar al Instituto de Artes?
+    - ¿Qué pasos debo seguir para ingresar al Instituto de Artes?
+    - ¿Cómo puedo aplicar a un programa en el Instituto de Artes?
+    - ¿Cuál es el procedimiento para inscribirme en un programa del Instituto de Artes?
+    - ¿Qué requisitos necesito para ingresar al Instituto de Artes?
+    - ¿Puedes darme información sobre cómo ingresar al Instituto de Artes?
+    - ¿Cómo puedo unirme a un programa del Instituto de Artes?
+    - ¿Dónde puedo encontrar información sobre cómo ingresar al Instituto de Artes?
+    - ¿Cuáles son los pasos para ingresar al Instituto de Artes?
+    - ¿Puedes decirme más sobre cómo ingresar al Instituto de Artes?
+    - ¿Cómo puedo convertirme en estudiante del Instituto de Artes?
 
-- intent: ingreso_ingles
+- intent: ingreso_licenciatura_enseñanza_lengua_inglesa
   examples: |
     - Quiero ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa ¿qué debo hacer?
+    - ¿Cómo puedo inscribirme en la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Qué necesito para ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Cuál es el proceso de admisión para la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Puedes ayudarme a entender cómo ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Qué pasos debo seguir para ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Cómo puedo aplicar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Cuál es el procedimiento para inscribirme en la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Qué requisitos necesito para ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Puedes darme información sobre cómo ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Cómo puedo unirme a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Dónde puedo encontrar información sobre cómo ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Cuáles son los pasos para ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Puedes decirme más sobre cómo ingresar a la Licenciatura en Enseñanza de la Lengua Inglesa?
+    - ¿Cómo puedo convertirme en estudiante de la Licenciatura en Enseñanza de la Lengua Inglesa?
 
-- intent: proceso_ingreso
+- intent: consulta_proceso_de_ingreso
   examples: |
     - Antes de iniciar tu proceso de selección
     - ¿Cómo puedo ingresar a la UAEH?
+    - ¿Cómo puedo ingresar a la universidad?
     - ¿Cuándo y dónde se publica la Convocatoria para ingresar a la UAEH?
+    - ¿Cuándo y dónde se publica la Convocatoria para ingresar a la universidad?
+    - ¿Cuál es el proceso para ingresar a la UAEH?
+    - ¿Cuál es el proceso para ingresar a la universidad?
+    - ¿Cómo puedo iniciar mi proceso de selección en la UAEH?
+    - ¿Cómo puedo iniciar mi proceso de selección en la universidad?
+    - ¿Dónde puedo encontrar información sobre el proceso de ingreso a la UAEH?
+    - ¿Dónde puedo encontrar información sobre el proceso de ingreso a la universidad?
+    - ¿Puedes ayudarme a entender el proceso de ingreso a la UAEH?
+    - ¿Puedes ayudarme a entender el proceso de ingreso a la universidad?
+    - ¿Qué pasos debo seguir para ingresar a la UAEH?
+    - ¿Qué pasos debo seguir para ingresar a la universidad?
+    - ¿Cómo puedo aplicar para ingresar a la UAEH?
+    - ¿Cómo puedo aplicar para ingresar a la universidad?
+    - ¿Cuál es el procedimiento para ingresar a la UAEH?
+    - ¿Cuál es el procedimiento para ingresar a la universidad?
+    - ¿Qué requisitos necesito para ingresar a la UAEH?
+    - ¿Qué requisitos necesito para ingresar a la universidad?
+    - ¿Puedes darme información sobre cómo ingresar a la UAEH?
+    - ¿Puedes darme información sobre cómo ingresar a la universidad?
+    - ¿Cómo puedo convertirme en estudiante de la UAEH?
+    - ¿Cómo puedo convertirme en estudiante de la universidad?
+    - ¿Dónde puedo encontrar la Convocatoria para ingresar a la UAEH?
+    - ¿Dónde puedo encontrar la Convocatoria para ingresar a la universidad?
+    - ¿Cuándo se publica la Convocatoria para ingresar a la UAEH?
+    - ¿Cuándo se publica la Convocatoria para ingresar a la universidad?
+    - ¿Puedes decirme más sobre el proceso de ingreso a la UAEH?
+    - ¿Puedes decirme más sobre el proceso de ingreso a la universidad?
+    - ¿Cómo puedo prepararme para el proceso de selección en la UAEH?
+    - ¿Cómo puedo prepararme para el proceso de selección en la universidad?

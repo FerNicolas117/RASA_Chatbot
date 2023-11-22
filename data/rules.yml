@@ -5,14 +5,14 @@ rules:
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: despedir
-  - action: utter_despedida
+  - action: utter_despedir
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
-  - intent: bot_preguntas
-  - action: utter_ask_bot_pregunta
+  - intent: consulta_chatbot
+  - action: utter_consulta_chatbot
 
 - rule: Responder a la consulta de programas educativos
   steps:
-    - intent: informacion_carreras
-    - action: utter_informacion_carreras
+    - intent: consulta_informacion_carreras
+    - action: utter_consulta_informacion_carreras

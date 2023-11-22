@@ -7,16 +7,19 @@ intents:
   - negar
   - ánimo_genial
   - ánimo_infeliz
-  - bot_preguntas
-  - informacion_carreras
-  - carreras_virtuales
-  - ingreso_arte
-  - ingreso_ingles
-  - proceso_ingreso
+  - consulta_chatbot
+  - consulta_informacion_carreras
+  - consulta_informacion_carreras_virtuales
+  - ingreso_instituto_de_artes
+  - ingreso_licenciatura_enseñanza_lengua_inglesa
+  - consulta_proceso_de_ingreso
 
 responses:
-  utter_saludo:
+  utter_saludar:
   - text: "¡Hola! ¿En qué puedo ayudarte?"
+
+  utter_despedir:
+  - text: "Adiós, ¡que tengas un buen día!"
 
   utter_animar:
   - text: "Aquí tienes algo para animarte:"
@@ -28,26 +31,36 @@ responses:
   utter_feliz:
   - text: "¡Genial, continúa!"
 
-  utter_despedida:
-    - text: "Adiós, ¡que tengas un buen día!"
-
-  utter_ask_bot_pregunta:
+  utter_consulta_chatbot:
     - text: "Sí, soy un bot, potenciado por RASA. ¿En qué puedo ayudarte?"
 
-  utter_informacion_carreras:
-    - text: "Puedes consultar los programas educativos de las Licenciaturas que ofrece la UAEH en el siguiente enlace: https://www.uaeh.edu.mx/discover/"
+  utter_consulta_informacion_carreras:
+    - text: "Las carreras se dividen por áreas del conocimiento: Artes y Humanidades, Ciencias de la vida, 
+    Ciencias Médicas, Ciencias Naturales, Ciencias Sociales y Gestión e Ingeniería y Tecnología. 
+    Puedes consultar los programas educativos de las Licenciaturas que ofrece la UAEH en el siguiente 
+    enlace: https://www.uaeh.edu.mx/discover/"
 
-  utter_carreras_virtuales:
-    - text: "La UAEH ofrece dos programas educativos en modalidad virtual, la Lic. en Mercadotecnia y la Lic. En Innovación y Tecnología Educativa. Puedes encontrar información de estos y otros programas educativos en: https://www.uaeh.edu.mx/discover/"
+  utter_consulta_informacion_carreras_virtuales:
+    - text: "La UAEH ofrece dos programas educativos en modalidad virtual, la Lic. en Mercadotecnia y la Lic. 
+    En Innovación y Tecnología Educativa. Puedes encontrar información de estos y otros programas educativos en: 
+    https://www.uaeh.edu.mx/discover/"
 
-  utter_ingreso_arte:
-    - text: "En las licenciaturas que se imparten en el Instituto de Artes, solo podrán registrarse las personas que presenten la constancia de aprobación del curso propedéutico en el área respectiva. Para más informes dirígete a: Instituto de Artes, Ex Hacienda de San Cayetano S/N, Colonia Centro, Mineral del Monte, Hidalgo, México, C.P. 42130. Teléfono: 7717172000, Extensión: 4441. O a los correos electrónicos: propeartesvisuales@uaeh.edu.mx, propemusica@uaeh.edu.mx, propedanza@uaeh.edu.mx, propeteatro@uaeh.edu.mx"
+  utter_ingreso_instituto_de_artes:
+    - text: "En las licenciaturas que se imparten en el Instituto de Artes, solo podrán registrarse las personas 
+    que presenten la constancia de aprobación del curso propedéutico en el área respectiva. Para más informes 
+    dirígete a: Instituto de Artes, Ex Hacienda de San Cayetano S/N, Colonia Centro, Mineral del Monte, Hidalgo, 
+    México, C.P. 42130. Teléfono: 7717172000, Extensión: 4441. O a los correos electrónicos: 
+    propeartesvisuales@uaeh.edu.mx, propemusica@uaeh.edu.mx, propedanza@uaeh.edu.mx, propeteatro@uaeh.edu.mx"
 
-  utter_ingreso_ingles:
-    - text: "Para registrarte en esta licenciatura debes comprobar un nivel de inglés A2 y haber realizado una entrevista en el área académica correspondiente. Para mayores informes consulta en el apartado de PRESELECCIÓN en el siguiente link: https://www.uaeh.edu.mx/campus/icshu/licenciatura/ensenanza-lengua-inglesa"
+  utter_ingreso_licenciatura_enseñanza_lengua_inglesa:
+    - text: "Para registrarte en esta licenciatura debes comprobar un nivel de inglés A2 y haber realizado 
+    una entrevista en el área académica correspondiente. Para mayores informes consulta en el apartado de 
+    PRESELECCIÓN en el siguiente link: https://www.uaeh.edu.mx/campus/icshu/licenciatura/ensenanza-lengua-inglesa"
 
-  utter_proceso_ingreso:
-    - text: "El ingreso a la UAEH está sustentado en el resultado obtenido en el Examen de Admisión y puedes iniciar tu proceso de selección en https://uaeh.edu.mx/aspirantes/licenciatura/ del 5 de septiembre al 20 de octubre de 2023."
+  utter_consulta_proceso_de_ingreso:
+    - text: "El ingreso a la UAEH está sustentado en el resultado obtenido en el Examen de Admisión y puedes 
+    iniciar tu proceso de selección en https://uaeh.edu.mx/aspirantes/licenciatura/ del 5 de septiembre 
+    al 20 de octubre de 2023."
 
 session_config:
   session_expiration_time: 60
